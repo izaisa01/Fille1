@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(https://png.pngtree.com/background/20230607/original/pngtree-black-and-white-photographic-camera-and-photos-picture-image_2903385.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+main {
+  padding: 40px;
+  border-radius: 30px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.901);
+    margin-top: 30px;
+}
+main h2 {
+  margin-bottom: 20px;
+  color: #4C082E;
+}
+main input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4C082E;
+  border-radius: 10px;
+  color: #2D2E83;
+}
+main button {
+  width:70%;
+  padding: 10px;
+  background-color: #2D2E83;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 30px;
+}
+button:hover{
+  background-color: #4c082e;
+}
+button>a:hover{
+ font-weight:bold;
+}
+h5>a{
+  color:#4C082E;
+}
+
+button>a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+img{
+  width: 20px
+}
+header>img{
+  width: 50px;
+  margin: left;
+}
+header{
+  background-color: #4C082E;
+}
+
+p{
+   z-index: 30;
+  color:#4C082E;
+}
+.logoeconfiguraçoes{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}

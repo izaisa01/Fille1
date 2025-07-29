@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    ---colorcabeçario: #7A134C;
+    ---colormain: #2D2E83;
+    ---colorbody: #FFE5F4;
+    ---colorclose: #ADB0FF;
+    ---colorparagrafo: #FFD6ED;
+}
+ body{
+         font-family: "Roboto", sans-serif;
+    }
+
+.logo{
+    width: 50px;
+
+    margin-left: 40px;
+}
+header{
+    background-color: #7A134C
+}
+body{
+    background-color: #f8dcec;
+}
+section>.girassol{
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: #535353 5px 5px 4px;
+    margin-bottom: 20px;
+}
+.icone-circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #2D2E83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+   
+}
+.perfil1{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+h4{
+    margin-left: 20px;
+}
+.perfil2{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.perfil3{
+     display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.comentario1{
+    padding-left: 20px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+.responder1{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.respondermesmo{
+    margin-left: 20px;
+  margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.responder2{
+      display: flex;
+    font-size: 10px;
+margin-bottom: 20px;
+margin-left: 60px;
+
+}
+.imagensecomentarios{
+    display: flex;
+    margin-left: 60px;
+    margin-top: -60px;
+    justify-self: center;
+} 
+.com{
+    margin-left: 60px;
+    width: 150px;
+    height: 100px;
+    margin-right: 40px;
+}
+.enviar{
+   
+    background-color: #2D2E83;
+    color: rgb(253, 255, 254);
+
+}
+.todoscom{
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 60px;
+    box-shadow: #535353 6px 6px 5px;
+    justify-self: center;
+     width: 400px;
+     height: 815px;
+
+}
+.close{
+        padding:  20px;
+    width: 40px;
+
+}
+.faixa-inferior {
+    background-color: #7A134C;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faixa-inferior .icone {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.faixa-inferior .selecionado {
+    color: white;
+}
+
+
+.icone-circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.perfil>a{
+    color: #7A134C;
+}

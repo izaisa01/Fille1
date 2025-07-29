@@ -1,0 +1,163 @@
+* {
+  margin: 0%;
+  padding: 0%;
+   font-family: "Roboto", sans-serif;
+}
+:root {
+  ---colorconfigurações: #faf5f8;
+  ---colorfundo: #dedeff;
+  ---colorlinha: #7a134c;
+  ---colorbotão: #2d2e83;
+   ---colorbody:#111134;
+}
+
+
+body{
+  background-image: url(midia_final/icon.webp);
+}
+
+header {
+  background-color: #7a134c;
+  height: 50px;
+  padding: 10px;
+}
+
+img {
+  height: 50px;
+  margin-left: 40px;
+}
+
+nav{
+  background-color: #dedeff;
+  width: 400px;
+height: 800px;
+}
+
+ul,li{
+  padding: 12px;
+list-style: none;
+}
+
+li{
+  background-color: #faf5f8;
+  margin-top: 56px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: solid #2d2e83 3px;
+  display: flex;
+  align-items: center;
+}
+li:hover{
+   background-color: #f2ebef;
+}
+
+nav>ul>li>a{
+  text-decoration: none;
+  color: #111134;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+li>img{
+  margin-left: 0px;
+}
+
+main{
+  display: flex;
+     font-family: "Roboto", sans-serif;
+
+}
+
+
+.manu{
+  display: flex;
+  align-items: center;
+}
+
+div>img{
+  height: 60px;
+}
+h4{
+  padding: 20px;
+}
+.perfil{
+  background-color: #faf5f8;
+  height: 140px;
+  width: 600px;
+    font-size: 30px;
+    padding: 20px;
+       border-radius: 20px;
+       color: #111134;
+         font-size: 20px;
+        box-shadow: #9d9dc2 0px 5px 15px;
+}
+
+h4>a{
+margin-left: 100px;
+color: #111134;
+}
+
+.caixa{
+  margin-left: 120px;
+  margin-top: 60px;
+  background-color: #dedeff;
+  border-radius: 20px;
+  height: 400px;
+  padding: 60px;
+  box-shadow: #a6a6c1 0px 10px 20px;
+  opacity: 95%;
+}
+.caixa>div>h2{
+  font-size: 40px;
+  color: #111134;
+}
+
+h3{
+  margin-bottom: 100px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+
+hr{
+margin-top: 10px;
+border: solid #111134 1px;
+}
+
+.faixa-inferior {
+    background-color: #7A134C;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faixa-inferior .icone {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.faixa-inferior .selecionado {
+    color: white;
+}
+.icone-circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+a{
+  color: #111134;
+}
+.close{
+margin-left: 800px;
+width: 40px;
+height: 40px;
+}

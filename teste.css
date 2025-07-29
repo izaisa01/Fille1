@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Faixa superior do site */
+.faixa-superior {
+    background-color: #7A134C;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.logo {
+    height: 40px;
+}
+
+/* Conteúdo do feed */
+.conteudo-feed {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Postagem */
+.postagem {
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da postagem */
+.cabecalho-postagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.foto-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.nome-usuario {
+    font-weight: bold;
+}
+
+/* Imagem da postagem */
+.imagem-postagem {
+    width: 100%;
+    display: block;
+}
+
+/* Ícones de interação */
+.icones-interacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+.icones-esquerda {
+    display: flex;
+    gap: 15px;
+}
+
+.icone-interacao {
+    font-size: 22px;
+    cursor: pointer;
+    color: gray;
+    transition: color 0.3s;
+}
+
+.coracao {
+    color: gray;
+}
+
+.coracao.ativo {
+    color: red;
+}
+
+.salvar {
+    color: gray;
+}
+
+.salvar.ativo {
+    color: gold;
+}
+
+/* Faixa inferior do site */
+.faixa-inferior {
+    background-color: #7A134C;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faixa-inferior .icone {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.faixa-inferior .selecionado {
+    color: white;
+}
+
+/* Círculos da faixa inferior */
+.icone-circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="teste.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- faixa superior do site -->
+  <div class="faixa-superior">
+    <img src="logo_site.png" alt="Logo do site" class="logo" />
+  </div>
+
+  <!-- conteudo do feed -->
+  <div class="conteudo-feed">
+    <!-- post 1 -->
+    <div class="postagem">
+      <div class="cabecalho-postagem">
+        <img src="https://t.ctcdn.com.br/s5NhP0VUuQhw8NC1nws8xoHAoJ4=/1200x675/smart/i601453.png" class="foto-perfil" />
+        <span class="nome-usuario">Emanuelle</span>
+      </div>
+      <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg"class="imagem-postagem" />
+
+      <!--  mudar cor coraçao -->
+      <div class="icones-interacao">
+        <div class="icones-esquerda">
+          <i class="fas fa-heart icone-interacao coracao" onclick="alternarCoracao(this)"></i>
+          <i class="fas fa-comment icone-interacao"></i>
+          <i class="fas fa-paper-plane icone-interacao"></i>
+        </div>
+        <i class="fas fa-bookmark icone-interacao salvar" onclick="alternarSalvar(this)"></i>
+      </div>
+    </div>
+
+    <!-- post 2 -->
+    <div class="postagem">
+      <div class="cabecalho-postagem">
+        <img src="https://t.ctcdn.com.br/s5NhP0VUuQhw8NC1nws8xoHAoJ4=/1200x675/smart/i601453.png" alt="Foto de perfil" class="foto-perfil" />
+        <span class="nome-usuario">Maria</span>
+      </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqLrblNXMbm26VGmB0a0MXa0KBl5HZkCuu5Q&s" alt="Foto da postagem" class="imagem-postagem" />
+      
+      <!--  mudar cor coraçao -->
+      <div class="icones-interacao">
+        <div class="icones-esquerda">
+          <i class="fas fa-heart icone-interacao coracao" onclick="alternarCoracao(this)"></i>
+          <i class="fas fa-comment icone-interacao"></i>
+          <i class="fas fa-paper-plane icone-interacao"></i>
+        </div>
+        <i class="fas fa-bookmark icone-interacao salvar" onclick="alternarSalvar(this)"></i>
+      </div>
+    </div>
+
+    <!--post 3 -->
+    <div class="postagem">
+      <div class="cabecalho-postagem">
+        <img src="https://t.ctcdn.com.br/s5NhP0VUuQhw8NC1nws8xoHAoJ4=/1200x675/smart/i601453.png"
+        class="foto-perfil" />
+        <span class="nome-usuario">Imagens natureza</span>
+      </div>
+      <img src="https://wallpapers.com/images/hd/4k-landscape-montana-mountain-sunset-04gzrw7s9axs8q5w.jpg" 
+      class="imagem-postagem" />
+
+      <!-- mudar cor coraçao -->
+      <div class="icones-interacao">
+        <div class="icones-esquerda">
+          <i class="fas fa-heart icone-interacao coracao" onclick="alternarCoracao(this)"></i>
+          <i class="fas fa-comment icone-interacao"></i>
+          <i class="fas fa-paper-plane icone-interacao"></i>
+        </div>
+        <i class="fas fa-bookmark icone-interacao salvar" onclick="alternarSalvar(this)"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- a faixa d baixo -->
+  <div class="faixa-inferior">
+    <i class="fas fa-home icone selecionado"></i>
+    <i class="fas fa-search icone"></i>
+    <div class="icone-circulo">
+      <i class="fas fa-plus"></i>
+    </div>
+    <i class="fas fa-comment icone"></i>
+    <div class="icone-circulo">
+      <i class="fas fa-user"></i>
+    </div>
+  </div>
+
+  <!-- java -->
+  <script>
+    function alternarCoracao(elemento) {
+      elemento.classList.toggle("ativo");
+    }
+    function alternarSalvar(elemento) {
+      elemento.classList.toggle("ativo");
+    }
+  </script>
+</body>
+</html>

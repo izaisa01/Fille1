@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.conteudo-superior {
+  flex: 1;
+}
+
+.aba-chat {
+  padding: 5px;
+  background-color: #FFD6ED;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 8px;
+  box-shadow: 2px 2px 5px #2e051c88;
+}
+.titulo-chat {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: Poppins, Roboto, Sans Serif;
+  margin-left: 10px;
+}
+.lista-usuarios {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.usuario {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.usuario img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+header{
+  background-color: #4C082E;
+}
+header>img{
+  width: 50px;
+  margin: left;
+}
+
+/*css dos stories*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white; /* corrigido de "branco" para "white" */
+}
+
+.area-perfis {
+  width: 100%;
+  margin: auto ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#edb6d4;
+}
+/* Cada perfil */
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 80px; /* largura para alinhar os itens */
+  margin: 40px;
+}
+
+/* Fotos perfil circulares */
+.foto-perfil {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+   border: 2px solid #7A134C; /* contorno vinho para destacar */
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-left: -70px
+}
+
+/* Pequeno efeito ao passar mouse */
+.foto-perfil:hover {
+  transform: scale(1.1);
+}
+
+/* Nome usuário embaixo da foto */
+.nome-usuario{
+  margin-top: 5px;
+  font-size: 12px;
+  color: #333;
+  word-wrap: break-word;
+}
+hr{
+  margin: 8px;
+  height: 2px;
+  background-color: #2D2E83;
+}
+.faixa-inferior {
+    background-color: #4C082E;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faixa-inferior .icone {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.faixa-inferior .selecionado {
+    color: white;
+}
+.icone-circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.familia>img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #7A134C; /* contorno vinho para destacar */
+  cursor: pointer;
+}
+.familia{
+  background-color:#bbbce6;
+  border-radius: 20px;
+  padding: 10px ;
+  width:100% ;
+  
+}
+p{
+  margin: auto;
+  width: 80%;
+  margin-top: 25px;
+  
+}
+.user1{
+  background-color: #e373b1;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 600;
+}
+.user2{
+ background-color:#8b8ce0;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 600;
+}
+.chat{
+  margin-top: 20px;
+  display: flex;
+  width: 90%;
+gap: 10px;
+  background-color: #f8f8f8;
+}
+.areatx{
+  border-radius: 10px;
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+}
+section>.familia>.microfone{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 6px;
+}
+.foto-perfilcria-foto{
+  margin-left: 100px;
+}
+.usuario:hover{
+  background-color: #7A134C;
+  color: #d51818;
+}
+.foto-perfilcria-foto{
+  margin-right: 40px;
+}
+ 

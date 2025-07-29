@@ -1,0 +1,76 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(fundords.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+main {
+  padding: 40px;
+  border-radius: 30px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+    background-color: rgba(255, 255, 255, 0.849);
+      margin-top: 30px;
+}
+button:hover{
+  background-color: #4c082e;
+}
+button>a:hover{
+ font-weight:bold;
+}
+main input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4C082E;
+  border-radius: 10px;
+}
+main button {
+  width:70%;
+  padding: 10px;
+  background-color: #2D2E83;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 30px;
+}
+button>a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+img{
+  width: 60px
+}
+header>img{
+  width: 50px;
+  margin: left;
+  margin-bottom: 10px;
+}
+header{
+  background-color: #4C082E;
+}
+
+main h5{
+  margin: 20px;
+  color: #4C082E;
+}
+a{
+  color: #4C082E;
+}
+main h2{
+  color: #4C082E;
+}

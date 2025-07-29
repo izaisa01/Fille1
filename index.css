@@ -1,0 +1,89 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(https://th.bing.com/th/id/R.5cb38a51893db32ab04a165a1f9fe5f7?rik=9vJ1v9cyV6MIAA&riu=http%3a%2f%2fnikon1.ir%2fwp-content%2fuploads%2f2022%2f06%2f1.jpg&ehk=nkOIIS0wmBlORs2CkHXeD46o2QHWxKXqaPrge1judV0%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+main {
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin-left: 900px;
+  background-color: rgba(255, 255, 255, 0.921);
+  margin-top: 30px;
+}
+main h2 {
+  margin-bottom: 20px;
+  color: #4c082e;
+}
+main input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4c082e;
+  border-radius: 10px;
+}
+main button {
+  width: 60%;
+  padding: 10px;
+  background-color: #2d2e83;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 40px;
+  font-size: 18px;
+}
+button:hover{
+  background-color: #4c082e;
+}
+button>a:hover{
+ font-weight:bold;
+}
+.recup {
+  color: #4c082e;
+}
+h5 {
+  margin-top: 15px;
+  text-align: left;
+}
+main > button > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+p > a {
+  color: #4c082e;
+}
+p {
+  font-size: 15px;
+  margin: -15px;
+}
+h6 {
+  text-align: left;
+  margin-top: 10px;
+}
+
+header {
+  background-color: #4c082e;
+}
+
+.logoeconfiguraçoes{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}

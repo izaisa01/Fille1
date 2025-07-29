@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Roboto", sans-serif;
+}
+
+:root{
+    ---colorcabeçario: #7A134C;
+    ---colormain: #2D2E83;
+    ---colorbody: #FFE5F4;
+}
+main>section>a>img{
+    padding:  20px;
+    width: 40px;
+}
+.logo{
+    width: 50px;
+
+    margin-left: 40px;
+      margin-top:10px;
+    margin-bottom: 10px;
+}
+header{
+    background-color: #7A134C
+}
+main>section>h1{
+    font-family: "DM Serif Text", serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+main>section>h3{
+text-align: center;
+ font-family: "DM Serif Text", serif;
+ margin-top: 30px;
+ margin-bottom: 50px;
+}
+p{
+    margin-top: 10px;
+  
+    font-size: 20px;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 20px;
+width: 1000;
+}
+.fotos{
+   padding: 20px;
+   margin-left: 20px;
+   justify-self: center;
+   display: flex;
+ margin-top: 20px;
+}
+.cac{
+    margin-right: 50px;
+    
+}
+.para{
+    padding-top: 20px;
+}
+.camera{
+ padding-left: 50px;
+}
+h3{
+     font-family: "DM Serif Text", serif;
+     font-size: 30px;
+
+}
+main>section>ol>li{
+ margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+ol{
+    
+  
+    width: 1500px;
+    margin-left: 50px;
+   
+}
+
+section>ul>li{
+     margin-top: 10px;
+  margin-left: 50px; 
+ 
+   
+}
+article>li{
+    font-size: 20px;
+}
+ul{
+    
+   
+    width: 1500px;
+    height: 220;
+    margin-left: 50px;
+    
+   
+}
+    .imagens{
+        background-color: #FFE5F4;
+    }
+.texto{
+  width: 1500px;
+    margin-left: 50px;
+    
+     font-size: 20px;
+   
+    height: 220px;
+
+}
+.cidade{
+    justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 
+}
+.cidaderoma{
+    width: 900px;
+    height: 400px;
+}
+.faixa-inferior {
+    background-color: #7A134C;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faixa-inferior .icone {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.faixa-inferior .selecionado {
+    color: white;
+}
+
+
+.icone-circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.frase{
+    margin-bottom: 30px;
+}
+.close{
+    padding:  20px;
+    width: 40px; 
+}
+.perfil>a{
+    color: #7A134C;
+}
+.menu{
+margin-top: 20px;
+margin-right: 20px;
+ 
+}
+.logoeconfiguraçoes{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* FAIXA*/
+.faixa-topo, .faixa-rodape {
+  background-color: #7A134C;
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  left: 0;
+  z-index: 20;
+}
+.faixa-topo {
+  top: 0;
+}
+.faixa-rodape {
+  bottom: 0;
+}
+
+/* CONTEUDO DO STORY */
+.conteudo-story {
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+}
+
+/* PERFIL */
+.perfil-story {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 25px;
+}
+
+.foto-perfil {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #fff;
+}
+
+.nome-usuario {
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+  
+}
+
+/* A BARRA DE DURAÇAO */
+.barra-duracao {
+  position: absolute;
+  top: 80px;
+  left: 300px;
+  max-width: 900px;
+  height: 4px;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 5px;
+}
+
+/* ICONES */
+.comentario-area {
+  position: fixed;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.campo-comentario {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 12px;
+  color: black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.campo-comentario input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 16px;
+}
+.close{
+  margin-top: 10px;
+  height: 30px;
+margin-left: 10px;
+}

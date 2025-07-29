@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade final</title>
+  <link rel="stylesheet" href="pagina_feed.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="pagina_feed.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rye&display=swap" rel="stylesheet">
+
+</head>
+
+
+ <body>
+  <!-- AQUI É A FAIXA DE CIMA DO SITE -->
+  <header>
+    <nav class="faixacima">
+    <div class="logo">
+      
+        <img src="imagens/Ativo 2.png" alt="">
+      
+    </div>
+       </nav>
+  </header>
+
+  <!-- FAIXA DOS STORIES -->
+<section class="faixastories">
+  <section class="story criarStory">
+    <section class="imagemStory">+</section>
+    <span class="nomeStory">Criar</span>
+  </section>
+
+  <section class="story">
+    <a href="#"><img class="imagem" src="imagensdo_enzo/story1.jpg" class="imagemStory"></a>
+    <span class="nomeStory">bruno</span>
+  </section>
+
+  <section class="story">
+    <a href="#"><img class="imagem" src="imagensdo_enzo/story2.jpg" class="imagemStory"></a>
+    <span class="nomeStory">eubezerra</span>
+  </section>
+
+  <section class="story">
+    <a href="#"><img class="imagem" src="imagensdo_enzo/story3.jpg" class="imagemStory"></a>
+    <span class="nomeStory">péricles</span>
+  </section>
+
+  <section class="story">
+    <a href="#"><img class="imagem" src="imagensdo_enzo/story4.jpg" class="imagemStory"></a>
+    <span class="nomeStory">diogonogueira</span>
+  </section>
+</section>
+
+  <!-- AQUI É O CONTEUDO DO FEED -->
+  <section class="conteudoFeed">
+    <!-- PRIMEIRA POSTAGEM -->
+    <section class="postagem">
+      <section class="cabecalhopostagem">
+        <img src="imagensdo_enzo/foto_d_perfil.jpg" class="fotoPerfil"/>
+        <span class="nomeUsuario">Emanuele</span>
+      </section>
+      <img src="imagensdo_enzo/foto_post.avif" class="imagemPostagem" />
+
+      <!-- ICONES DA 1POSTAGEM -->
+      <section class="iconesInteracao">
+        <section class="iconesEsquerda">
+          <i class="fas fa-heart iconeInteracao coracao" onclick="trocarCoracao(this)"></i>
+          <i class="fas fa-comment iconeInteracao"></i>
+          <i class="fas fa-paper-plane iconeInteracao"></i>
+        </section>
+        <i class="fas fa-bookmark iconeInteracao salvar" onclick="trocarSalvar(this)"></i>
+      </section>
+    </section>
+
+    <!-- SEGUNDA POSTAGEM -->
+    <section class="postagem">
+      <section class="cabecalhopostagem">
+        <img src="imagensdo_enzo/foto_d_perfil.jpg" class="fotoPerfil" />
+        <span class="nomeUsuario">Maria</span>
+      </section>
+      <img src="imagensdo_enzo/fotopost1.avif" class="imagemPostagem" />
+     
+      <!-- ICONES DA 2POSTAGEM -->
+      <section class="iconesInteracao">
+        <section class="iconesEsquerda">
+          <i class="fas fa-heart iconeInteracao coracao" onclick="trocarCoracao(this)"></i>
+          <i class="fas fa-comment iconeInteracao"></i>
+          <i class="fas fa-paper-plane iconeInteracao"></i>
+        </section>
+        <i class="fas fa-bookmark iconeInteracao salvar" onclick="trocarSalvar(this)"></i>
+      </section>
+    </section>
+
+    <!-- TERCEIRA POSTAGEM -->
+    <section class="postagem">
+      <section class="cabecalhopostagem">
+        <img src="imagensdo_enzo/foto_d_perfil.jpg" class="fotoPerfil" />
+        <span class="nomeUsuario">Imagens natureza</span>
+      </section>
+      <img src="imagensdo_enzo/foto_pot.jpg" class="imagemPostagem" />
+
+      <!-- ICONES DA 3POSTAGEM -->
+      <section class="iconesInteracao">
+        <section class="iconesEsquerda">
+          <i class="fas fa-heart iconeInteracao coracao" onclick="trocarCoracao(this)"></i>
+          <i class="fas fa-comment iconeInteracao"></i>
+          <i class="fas fa-paper-plane iconeInteracao"></i>
+        </section>
+        <i class="fas fa-bookmark iconeInteracao salvar" onclick="trocarSalvar(this)"></i>
+      </section>
+    </section>
+  </section>
+
+  <!-- AQUI É A FAIXA DE BAIXO DO SITE -->
+  <section class="faixaBaixo">
+    <a href="#"><i class="fas fa-home icone selecionado"></i></a>
+    <a href="explorar.html"><i class="fas fa-search icone"></i></a>
+    <section class="iconeBola">
+      <a href="#"><i class="fas fa-plus"></i></a>
+    </section>
+    <a href="chat.html"><i class="fas fa-comment icone"></i></a>
+    <section class="iconeBola">
+      <a href="perfil.html"><i class="fas fa-user"></i></a>
+    </section>
+  </section>
+
+  <!-- JAVA NAO COLOCAR CODIGO EMBAIXO! -->
+  <script>
+    function trocarCoracao(elemento) {
+      elemento.classList.toggle("ativo");
+    }
+    function trocarSalvar(elemento) {
+      elemento.classList.toggle("ativo");
+    }
+  </script>
+</body>
+
+</html>
